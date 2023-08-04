@@ -12,9 +12,6 @@ screen.title('Snake Game')
 # disattiva le animazioni, andrà poi aggiornato manualmente lo schermo
 screen.tracer(0)
 
-canvas = screen.getcanvas()
-root = canvas.winfo_toplevel()
-
 snake = Snake()
 food = Food()
 scoreboard = Scoreboard()
